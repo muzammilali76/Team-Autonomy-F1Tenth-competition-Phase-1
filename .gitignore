@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# ROS / colcon generated outputs
+starter_ws/.venv/
+starter_ws/build/
+starter_ws/install/
+starter_ws/log/
+controller_ws/build/
+controller_ws/install/
+controller_ws/log/
+
+# External repositories cloned by setup_workspace.sh
+starter_ws/src/f1tenth_gym_ros/
+
+# ROS runtime data
+.ros/
+*.log
+
+# Editors and OS files
+.vscode/
+.idea/
+.DS_Store
+
+
